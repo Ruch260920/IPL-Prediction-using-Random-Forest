@@ -16,48 +16,22 @@ Contributing
 License
 Project Structure
 bash
-Copy code
-IPL_Prediction/
-│
-├── data/
-│   ├── raw/                # Raw data files
-│   └── processed/          # Processed data files
-├── notebooks/
-│   └── IPL_PREDICTION_USING_RANDOM_FOREST_REGRESSION.ipynb  # Jupyter notebook
-├── src/
-│   ├── data_preprocessing.py  # Scripts for data preprocessing
-│   ├── model_training.py      # Scripts for model training
-│   └── evaluation.py          # Scripts for model evaluation
-├── README.md
-└── requirements.txt
 Installation
 To set up the project on your local machine, follow these steps:
 
 Clone the repository:
-
-bash
-Copy code
 git clone https://github.com/yourusername/IPL_Prediction.git
+
 cd IPL_Prediction
 Create and activate a virtual environment:
-
-bash
-Copy code
 python -m venv venv
 source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
 Install the required dependencies:
-
-Copy code
 pip install -r requirements.txt
 Usage
 Run the Jupyter notebook to see the entire workflow of the project:
-
-Copy code
 jupyter notebook notebooks/IPL_PREDICTION_USING_RANDOM_FOREST_REGRESSION.ipynb
 To preprocess the data, train the model, and evaluate it, run the respective scripts in the src directory:
-
-bash
-Copy code
 python src/data_preprocessing.py
 python src/model_training.py
 python src/evaluation.py
