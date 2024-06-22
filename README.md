@@ -20,7 +20,7 @@ Installation
 To set up the project on your local machine, follow these steps:
 
 Clone the repository:
-git clone https://github.com/yourusername/IPL_Prediction.git
+git clone https://github.com/RUCH260920/IPL_Prediction.git
 
 cd IPL_Prediction
 Create and activate a virtual environment:
